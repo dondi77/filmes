@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="filme.css">
+    <title>Filmógrafo</title>
+  </head>
+<header class="navbar-light bg-light">
+
+
+<nav class="navbar navbar-expand-lg navbar-light clearfix bg-info">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse"  id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="autores.html">Diretores</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="diversos.html">Diversos</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Escolher por nome:
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#1895">1895 - "Sortie de L’usine Lumière à Lyon"</a>
+          <a class="dropdown-item" href="#1902">1902 - Viagem à Lua</a>
+          <a class="dropdown-item" href="#1916">1916 - Intolerância</a>
+		  <a class="dropdown-item" href="#1920">1920 - O Gabinete do Dr. Caligari</a>
+        </div>
+      </li>
+	 <li>
+	 <form class="form-inline">
+     <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">  
+     </form>
+	 </li>
+	  <li class="nav-item d-flex justify-content-around">
+        <a class="nav-link" href="cadastro.html">Conta</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
+<main class="p-5">
+
+
+<form class="col-12 col-md-8 mr-auto ml-auto p-2 mt-2 border border-light rounded bg-secondary">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Endereço de email:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Seu comentário:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+   <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Desejo receber notificações pelo email</label>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlFile1">Adcionar um print do filme? (opcional)</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+  <button type="submit" class="btn btn-primary">Pronto</button>
+</form>
+</main>
+</html>
+
+
+
